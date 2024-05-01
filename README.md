@@ -6,6 +6,10 @@ This project is a Java-based Hospital Management System that utilizes MySQL data
 
 1. Create Database: This query creates a database named "hospital_management" to store all the necessary data.
 
+```sql
+   CREATE DATABASE hospital_management;
+```
+
 2. Use Database: This query selects the "hospital_management" database for executing further operations.
 
 3. Create Patients Table: This query creates a table named "patients" with columns for patient ID, name, age, and gender.
