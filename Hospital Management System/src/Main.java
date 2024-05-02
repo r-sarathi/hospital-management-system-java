@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     private static final String url =  "jdbc:mysql://localhost:3306/hospital_management";
     private static final String username = "root";
-    private static final String password = "Berlin*1081";
+    private static final String password = "your_database_root_password";
     public static void main(String[] args) {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
